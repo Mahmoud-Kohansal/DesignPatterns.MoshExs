@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using DesignPatterns.MoshExs.Behavioral.Iterator;
+
+Console.WriteLine("**************** Iterator Pattern ***************");
+IteratorPattern.Run();
