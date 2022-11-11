@@ -1,6 +1,7 @@
 ﻿
 using DesignPatterns.MoshExs.Behavioral.Command;
 using DesignPatterns.MoshExs.Behavioral.Iterator;
+using DesignPatterns.MoshExs.Behavioral.Mediator;
 using DesignPatterns.MoshExs.Behavioral.Observer;
 using DesignPatterns.MoshExs.Behavioral.State;
 using DesignPatterns.MoshExs.Behavioral.Strategy;
@@ -21,3 +22,6 @@ CommandPattern.Run();
 
 Console.WriteLine("**************** Observer Pattern ***************");
 ObserverPattern.Run();
+
+Console.WriteLine("**************** Mediator Pattern ***************");
+MediatorPattern.Run();
