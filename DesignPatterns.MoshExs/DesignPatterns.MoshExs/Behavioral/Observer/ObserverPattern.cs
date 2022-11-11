@@ -1,4 +1,5 @@
-﻿
+﻿using DesignPatterns.MoshExs.Behavioral.Observer.Pull;
+
 namespace DesignPatterns.MoshExs.Behavioral.Observer
 {
     public class ObserverPattern
@@ -8,7 +9,12 @@ namespace DesignPatterns.MoshExs.Behavioral.Observer
             DataSource dataSource = new();
             dataSource.AddObserver(new SpreadSheet());
             dataSource.AddObserver(new Chart());
-            dataSource.Value = "Hey there!";
+
+            dataSource.AddObserver(new SpreadSheetPull(dataSource));
+            dataSource.AddObserver(new ChartPull(dataSource));
+
+            dataSource.Value = "New Value!";
+
         }
     }
 }
