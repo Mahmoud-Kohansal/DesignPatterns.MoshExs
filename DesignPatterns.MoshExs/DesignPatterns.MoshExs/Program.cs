@@ -1,4 +1,5 @@
 ﻿
+using DesignPatterns.MoshExs.Behavioral.Command;
 using DesignPatterns.MoshExs.Behavioral.Iterator;
 using DesignPatterns.MoshExs.Behavioral.State;
 using DesignPatterns.MoshExs.Behavioral.Strategy;
@@ -13,3 +14,7 @@ StrategyPattern.Run();
 
 Console.WriteLine("**************** Template Method Pattern ***************");
 TemplateMethodPattern.Run();
+
+Console.WriteLine("**************** Command Pattern ***************");
+CommandPattern.Run();
+
