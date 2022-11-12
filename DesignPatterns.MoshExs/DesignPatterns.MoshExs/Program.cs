@@ -1,4 +1,5 @@
 ﻿
+using DesignPatterns.MoshExs.Behavioral.ChainOfResponsibility;
 using DesignPatterns.MoshExs.Behavioral.Command;
 using DesignPatterns.MoshExs.Behavioral.Iterator;
 using DesignPatterns.MoshExs.Behavioral.Mediator;
@@ -25,3 +26,9 @@ ObserverPattern.Run();
 
 Console.WriteLine("**************** Mediator Pattern ***************");
 MediatorPattern.Run();
+
+Console.WriteLine("**************** Mediator Pattern ***************");
+MediatorPattern.Run();
+
+Console.WriteLine("**************** ChainOfResponsibilityPattern Pattern ***************");
+ChainOfResponsibilityPattern.Run();
