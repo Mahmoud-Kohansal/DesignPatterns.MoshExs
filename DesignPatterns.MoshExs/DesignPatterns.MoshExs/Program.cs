@@ -7,6 +7,7 @@ using DesignPatterns.MoshExs.Behavioral.Observer;
 using DesignPatterns.MoshExs.Behavioral.State;
 using DesignPatterns.MoshExs.Behavioral.Strategy;
 using DesignPatterns.MoshExs.Behavioral.TemplateMethod;
+using DesignPatterns.MoshExs.Behavioral.Visitor;
 
 Console.WriteLine("**************** Iterator Pattern ***************");
 IteratorPattern.Run();
@@ -32,3 +33,6 @@ MediatorPattern.Run();
 
 Console.WriteLine("**************** ChainOfResponsibilityPattern Pattern ***************");
 ChainOfResponsibilityPattern.Run();
+
+Console.WriteLine("**************** Visitor Pattern ***************");
+VisitorPattern.Run();
