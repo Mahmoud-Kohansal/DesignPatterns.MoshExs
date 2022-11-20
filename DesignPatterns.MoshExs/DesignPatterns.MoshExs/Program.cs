@@ -10,6 +10,7 @@ using DesignPatterns.MoshExs.Behavioral.TemplateMethod;
 using DesignPatterns.MoshExs.Behavioral.Visitor;
 using DesignPatterns.MoshExs.Structural.Adapter;
 using DesignPatterns.MoshExs.Structural.Composite;
+using DesignPatterns.MoshExs.Structural.Decorator;
 
 Console.WriteLine("**************** Iterator Pattern ***************");
 IteratorPattern.Run();
@@ -44,3 +45,6 @@ CompositePattern.Run();
 
 Console.WriteLine("**************** Adapter Pattern ***************");
 AdapterPattern.Run();
+
+Console.WriteLine("**************** Decorator Pattern ***************");
+DecoratorPattern.Run();
