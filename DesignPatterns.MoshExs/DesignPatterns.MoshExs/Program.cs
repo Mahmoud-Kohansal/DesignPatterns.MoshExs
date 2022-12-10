@@ -48,3 +48,6 @@ AdapterPattern.Run();
 
 Console.WriteLine("**************** Decorator Pattern ***************");
 DecoratorPattern.Run();
+
+Console.WriteLine("**************** Facade Pattern ***************");
+DesignPatterns.MoshExs.Structural.Facade.FacadePattern.Run();
