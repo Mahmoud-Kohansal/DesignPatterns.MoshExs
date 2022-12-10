@@ -1,53 +1,42 @@
 ﻿
-using DesignPatterns.MoshExs.Behavioral.ChainOfResponsibility;
-using DesignPatterns.MoshExs.Behavioral.Command;
-using DesignPatterns.MoshExs.Behavioral.Iterator;
-using DesignPatterns.MoshExs.Behavioral.Mediator;
-using DesignPatterns.MoshExs.Behavioral.Observer;
-using DesignPatterns.MoshExs.Behavioral.State;
-using DesignPatterns.MoshExs.Behavioral.Strategy;
-using DesignPatterns.MoshExs.Behavioral.TemplateMethod;
-using DesignPatterns.MoshExs.Behavioral.Visitor;
-using DesignPatterns.MoshExs.Structural.Adapter;
-using DesignPatterns.MoshExs.Structural.Composite;
-using DesignPatterns.MoshExs.Structural.Decorator;
-
 Console.WriteLine("**************** Iterator Pattern ***************");
-IteratorPattern.Run();
+DesignPatterns.MoshExs.Behavioral.Iterator.IteratorPattern.Run();
+
 Console.WriteLine("**************** State Pattern ***************");
-StatePattern.Run();
+DesignPatterns.MoshExs.Behavioral.State.StatePattern.Run();
+
 Console.WriteLine("**************** Strategy Pattern ***************");
-StrategyPattern.Run();
+DesignPatterns.MoshExs.Behavioral.Strategy.StrategyPattern.Run();
 
 Console.WriteLine("**************** Template Method Pattern ***************");
-TemplateMethodPattern.Run();
+DesignPatterns.MoshExs.Behavioral.TemplateMethod.TemplateMethodPattern.Run();
 
 Console.WriteLine("**************** Command Pattern ***************");
-CommandPattern.Run();
+DesignPatterns.MoshExs.Behavioral.Command.CommandPattern.Run();
 
 Console.WriteLine("**************** Observer Pattern ***************");
-ObserverPattern.Run();
+DesignPatterns.MoshExs.Behavioral.Observer.ObserverPattern.Run();
 
 Console.WriteLine("**************** Mediator Pattern ***************");
-MediatorPattern.Run();
+DesignPatterns.MoshExs.Behavioral.Mediator.MediatorPattern.Run();
 
 Console.WriteLine("**************** Mediator Pattern ***************");
-MediatorPattern.Run();
+DesignPatterns.MoshExs.Behavioral.Mediator.MediatorPattern.Run();
 
 Console.WriteLine("**************** ChainOfResponsibilityPattern Pattern ***************");
-ChainOfResponsibilityPattern.Run();
+DesignPatterns.MoshExs.Behavioral.ChainOfResponsibility.ChainOfResponsibilityPattern.Run();
 
 Console.WriteLine("**************** Visitor Pattern ***************");
-VisitorPattern.Run();
+DesignPatterns.MoshExs.Behavioral.Visitor.VisitorPattern.Run();
 
 Console.WriteLine("**************** Composite Pattern ***************");
-CompositePattern.Run();
+DesignPatterns.MoshExs.Structural.Composite.CompositePattern.Run();
 
 Console.WriteLine("**************** Adapter Pattern ***************");
-AdapterPattern.Run();
+DesignPatterns.MoshExs.Structural.Adapter.AdapterPattern.Run();
 
 Console.WriteLine("**************** Decorator Pattern ***************");
-DecoratorPattern.Run();
+DesignPatterns.MoshExs.Structural.Decorator.DecoratorPattern.Run();
 
 Console.WriteLine("**************** Facade Pattern ***************");
 DesignPatterns.MoshExs.Structural.Facade.FacadePattern.Run();
