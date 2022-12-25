@@ -40,3 +40,6 @@ DesignPatterns.MoshExs.Structural.Decorator.DecoratorPattern.Run();
 
 Console.WriteLine("**************** Facade Pattern ***************");
 DesignPatterns.MoshExs.Structural.Facade.FacadePattern.Run();
+
+Console.WriteLine("**************** FlyWeight Pattern ***************");
+DesignPatterns.MoshExs.Structural.FlyWeight.FlyWeightPattern.Run();
